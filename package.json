@@ -1,0 +1,12 @@
+{
+  "name": "sphere-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check dist/app.js",
+    "test": "node --test"
+  }
+}
